@@ -2,7 +2,7 @@
 
 Its a modern social like web app with a stunning UI with a native mobile feel, a special tech stack, an infinite scroll feature, and amazing performance using React JS, Appwrite, TypeScript, and more.
 
-![Demo](/assets/images/demo.png)
+![Demo](public/assets/images/demo.png)
 
 ## Tech Stack
 
