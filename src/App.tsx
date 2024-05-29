@@ -1,7 +1,7 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom"
 
-import "./globals.css";
-import SigninForm from "./_auth/forms/SigninForm";
+import "./globals.css"
+import SigninForm from "./_auth/forms/SigninForm"
 import {
   AllUsers,
   CreatePost,
@@ -12,11 +12,11 @@ import {
   Profile,
   Saved,
   UpdateProfile,
-} from "./_root/pages";
-import SignupForm from "./_auth/forms/SignupForm";
-import AuthLayout from "./_auth/AuthLayout";
-import RootLayout from "./_root/RootLayout";
-import { Toaster } from "@/components/ui/toaster";
+} from "./_root/pages"
+import SignupForm from "./_auth/forms/SignupForm"
+import AuthLayout from "./_auth/AuthLayout"
+import RootLayout from "./_root/RootLayout"
+import { Toaster } from "@/components/ui/toaster"
 
 const App = () => {
   return (
@@ -44,7 +44,7 @@ const App = () => {
 
       <Toaster />
     </main>
-  );
-};
+  )
+}
 
-export default App;
+export default App
